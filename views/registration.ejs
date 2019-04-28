@@ -1,0 +1,21 @@
+<% include partials/Header %>
+  <body>
+    <div class="m-5 text-center">
+      <form class="form-reg" action="/registration" id="form-reg" method="POST">
+        <input type="text" id="username" class="text-center m-5"  name="username" placeholder="username" value <br> <br>
+        <input type="password" id="password" class="text-center m-5" name="password" value="" placeholder="password"> <br>
+        <input type="text" name="address" class="text-center m-5" id="address" placeholder="address"> <br> 
+        <input type='file' id="userphoto" class="text-center m-5 btn btnsubmit" name="userphoto" value="userphoto"><br>
+        <input type="submit" id="btnsubmit" class="text-center m-5 btn btn-success" name="submit" value="submit">
+      </form>
+
+    </div>
+
+
+    <% include partials/Footer %>
+    <script type="text/javascript" src="js/custom.js">
+
+    </script>
+  </body>
+</html>
+
